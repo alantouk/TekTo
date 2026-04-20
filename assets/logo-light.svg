@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="Tekto">
+  <defs>
+    <linearGradient id="gTealL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14B887"/>
+      <stop offset="1" stop-color="#0E8E66"/>
+    </linearGradient>
+    <linearGradient id="gBlueL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E6FBD"/>
+      <stop offset="1" stop-color="#164E88"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <rect x="24"  y="44" width="20" height="20" fill="#1E6FBD"/>
+    <rect x="46"  y="22" width="20" height="20" fill="#14B887"/>
+    <rect x="46"  y="44" width="20" height="20" fill="#164E88"/>
+    <rect x="68"  y="44" width="20" height="20" fill="#14B887"/>
+    <rect x="90"  y="44" width="20" height="20" fill="#0E8E66"/>
+  </g>
+
+  <g fill="url(#gTealL)">
+    <rect x="24" y="66" width="112" height="28"/>
+    <rect x="64" y="66" width="32"  height="150" rx="2"/>
+  </g>
+
+  <g font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-weight="800">
+    <text x="150" y="200" font-size="170" fill="url(#gBlueL)">EK</text>
+    <text x="410" y="200" font-size="170" fill="url(#gTealL)">TO</text>
+  </g>
+</svg>

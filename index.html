@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tekto Ltd — Digital Consultancy</title>
+  <meta name="description" content="Tekto Ltd is a UK digital consultancy building mobile apps, websites and smart-home solutions." />
+  <meta name="theme-color" content="#0b1014" />
+  <meta property="og:title" content="Tekto Ltd — Digital Consultancy" />
+  <meta property="og:description" content="Mobile apps · Websites · Smart-home solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tekto.uk" />
+  <meta property="og:image" content="assets/logo.svg" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <main class="wrap">
+    <header class="brand">
+      <img src="assets/logo.svg" alt="Tekto Ltd" class="logo" />
+    </header>
+
+    <section class="hero">
+      <h1>Engineering clever digital, one pixel at a time.</h1>
+      <p class="lede">
+        Tekto is a UK digital consultancy partnering with founders and teams to craft
+        <strong>mobile apps</strong>, <strong>modern websites</strong>, and
+        <strong>smart-home solutions</strong> that feel effortless.
+      </p>
+
+      <ul class="services" aria-label="What we do">
+        <li>
+          <span class="ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          </span>
+          <div>
+            <h3>Mobile apps</h3>
+            <p>iOS &amp; Android experiences built to last.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M2 9h20"/><path d="m13 13 3 3"/><path d="m16 13-3 3"/></svg>
+          </span>
+          <div>
+            <h3>Websites &amp; web apps</h3>
+            <p>Fast, accessible, SEO-friendly builds.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h14V10"/><circle cx="12" cy="13" r="2"/><path d="M15 5a4 4 0 0 1 4 4"/></svg>
+          </span>
+          <div>
+            <h3>Smart-home solutions</h3>
+            <p>Design, install and automate with care.</p>
+          </div>
+        </li>
+      </ul>
+
+      <p class="status"><span class="dot"></span> Our new site is under construction — full launch coming soon.</p>
+
+      <div class="cta">
+        <a class="btn" href="mailto:hello@tekto.uk">Get in touch</a>
+        <a class="btn ghost" href="https://tekto.uk">Visit tekto.uk</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Tekto Ltd · Registered in England &amp; Wales · <a href="https://tekto.uk">tekto.uk</a></p>
+    </footer>
+  </main>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
