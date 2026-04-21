@@ -4,10 +4,6 @@
       <stop offset="0" stop-color="#3BF0B2"/>
       <stop offset="1" stop-color="#14B887"/>
     </linearGradient>
-    <linearGradient id="gBlue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3796DB"/>
-      <stop offset="1" stop-color="#1E6FBD"/>
-    </linearGradient>
   </defs>
 
   <!-- pixel cluster above/around the T crossbar -->
@@ -27,7 +23,6 @@
 
   <!-- EKTO wordmark -->
   <g font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-weight="800">
-    <text x="150" y="200" font-size="170" fill="url(#gBlue)">EK</text>
-    <text x="410" y="200" font-size="170" fill="url(#gTeal)">TO</text>
+    <text x="148" y="200" font-size="170" fill="url(#gTeal)">EKTO</text>
   </g>
 </svg>
